@@ -48,8 +48,13 @@ end
 #    return @pet_shop[:pets].length
 # end
 
-def add_pet_to_stock(petshop, new_pet)
-    @petshop[:pets] << new_pet
+# def add_pet_to_stock(petshop, new_pet)
+#     @petshop[:pets] << new_pet
+# end
+
+
+def customer_cash(customer)
+    return @customers[:cash]
 end
 
 
